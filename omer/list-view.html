@@ -1,0 +1,1309 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<!-- Mirrored from htmldemo.net/chaos/chaos/list-view.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Dec 2023 20:00:40 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Shop List View | Chaos</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon
+    ============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Google Fonts
+    ============================================ -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- nivo slider CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" />
+    <!-- slick slider CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/slick.css" type="text/css" />
+    <!-- chosen CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/chosen.min.css">
+    <!-- Fontawsome CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- normalize CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- jquery-ui CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <!-- meanmenu CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- animate CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- style CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- modernizr JS
+    ============================================ -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body class="home">
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header>
+        <!--header container Start-->
+        <div class="header-container layout1">
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="welcome">
+                                <span class="phone-number d-none d-md-block">
+                                    +0.2222.8888
+                                </span>
+                                <span class="top-shipping d-none d-md-block">
+                                    Free ship on order over $2000
+                                </span>
+                            </div>
+                            <div class="top-menu">
+                                <div class="currency-switcher"></div>
+                                <div id="language">
+                                    <ul>
+                                        <li><a href="#">English</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Spanish</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a class="login-btn" href="login.html">Login or Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  top bar end -->
+            <!--  header start -->
+            <div class="header-bottom-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="logo">
+                                <a href="index.html" title="Chaos">
+                                    <img src="images/logo/logo.png" alt="logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">
+                            <div class="total-cart">
+                                <div class="cart-toggler">
+                                    <a href="#">
+                                        <span class="cart-title">My cart:</span>
+                                        <span class="cart-quantity">2items<span class="amount">£0.00</span></span>
+                                    </a>
+                                    <a class="checkout" href="#">Checkout</a>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <div class="cart-img">
+                                            <a href="#"><img src="images/cart/cart.jpg" alt="cart" /></a>
+                                            <span>1</span>
+                                        </div>
+                                        <div class="cart-info">
+                                            <h4><a href="#">Vestibulum suscipit</a></h4>
+                                            <span>£165.00</span>
+                                        </div>
+                                        <div class="del-icon">
+                                            <i class="fa fa-times-circle"></i>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="cart-img">
+                                            <a href="#"><img src="images/cart/cart-2.jpg" alt="cart" /></a>
+                                            <span>1</span>
+                                        </div>
+                                        <div class="cart-info">
+                                            <h4><a href="#">Vestibulum suscipit</a></h4>
+                                            <span>£165.00 </span>
+                                        </div>
+                                        <div class="del-icon">
+                                            <i class="fa fa-times-circle"></i>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="subtotal-text">Subtotal: </div>
+                                        <div class="subtotal-price">£300.00</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-search">
+                                <input class="top-search" type="text" placeholder="search product..." />
+                                <button><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  nav container start -->
+            <div class="nav-container">
+                <div class="mainmenu-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="horizontal-menu">
+                                    <nav>
+                                        <ul id="nav">
+                                            <li><a class="active" href="index.html">Home</a>
+                                                <ul>
+                                                    <li><a href="index-2.html">Home 2</a></li>
+                                                    <li><a href="index-3.html">Home 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="shop.html">shop</a>
+                                                <ul class="mega-menu">
+                                                    <li>
+                                                        <a href="shop.html" class="title">shop layout</a>
+                                                        <a href="shop.html">Full-width</a>
+                                                        <a href="shop-category.html">left-sidebar</a>
+                                                        <a href="shop-right-sidebar.html">right-sidebar</a>
+                                                        <a href="list-view.html">list view</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="shop.html" class="title">shop page</a>
+                                                        <a href="shop-category.html">Category</a>
+                                                        <a href="#">My account</a>
+                                                        <a href="cart.html">Shopping Cart</a>
+                                                        <a href="checkout.html">Checkout</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-product.html" class="title">Product types</a>
+                                                        <a href="single-product.html">Simple Product</a>
+                                                        <a href="single-product.html">Variable Product</a>
+                                                        <a href="single-product.html">Grouped Product</a>
+                                                        <a href="single-product.html">Downloadable</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="blog.html">blog</a></li>
+                                            <li><a href="about-us.html">about us</a></li>
+                                            <li><a href="blog.html">pages</a>
+                                                <ul>
+                                                    <li><a href="blog-left-sidebar.html">blog-left-sidebar</a></li>
+                                                    <li><a href="blog-details.html">blog-details</a></li>
+                                                    <li><a href="shop.html">Shop</a></li>
+                                                    <li><a href="single-product.html">Single Product</a></li>
+                                                    <li><a href="login.html">Login</a></li>
+                                                    <li><a href="cart.html">Cart</a></li>
+                                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                                    <li><a href="checkout.html">checkout</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact-us.html">contact</a></li>
+                                            <li><a href="404.html">error 404</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <!-- mobile-menu-area start -->
+                <div class="mobile-menu-area d-lg-none">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 visible-sm visible-xs">
+                                <div class="mobile-menu">
+                                    <nav id="dropdown">
+                                        <ul>
+                                            <li><a class="active" href="index.html">Home</a>
+                                                <ul>
+                                                    <li><a href="index-2.html">Home 2</a>
+                                                    </li>
+                                                    <li><a href="index-3.html">Home 3</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="shop.html">shop</a>
+                                                <ul class="mega-menu">
+                                                    <li>
+                                                        <a href="shop.html" class="title">shop layout</a>
+                                                        <a href="shop.html">Full-width</a>
+                                                        <a href="shop-category.html">left-sidebar</a>
+                                                        <a href="shop-right-sidebar.html">right-sidebar</a>
+                                                        <a href="list-view.html">list view</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="shop.html" class="title">shop page</a>
+                                                        <a href="shop-category.html">Category</a>
+                                                        <a href="#">My account</a>
+                                                        <a href="cart.html">Shopping Cart</a>
+                                                        <a href="checkout.html">Checkout</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-product.html" class="title">Product types</a>
+                                                        <a href="single-product.html">Simple Product</a>
+                                                        <a href="single-product.html">Variable Product</a>
+                                                        <a href="single-product.html">Grouped Product</a>
+                                                        <a href="single-product.html">Downloadable</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="blog.html">blog</a>
+                                                <ul class="mega-menu">
+                                                    <li>
+                                                        <a href="blog.html" class="title">blog layouts</a>
+                                                        <a href="blog.html">None Sidebar</a>
+                                                        <a href="blog-details.html">Full width</a>
+                                                        <a href="blog-left-sidebar.html">Sidebar Left</a>
+                                                        <a href="blog-left-sidebar.html">Sidebar Right</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="blog-details.html" class="title">blogs pages</a>
+                                                        <a href="blog-details.html">Author</a>
+                                                        <a href="blog-details.html">Archive</a>
+                                                        <a href="blog-details.html">Category</a>
+                                                        <a href="blog-details.html">Blog Tag</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="blog.html" class="title">Post formats</a>
+                                                        <a href="blog.html">Image Format</a>
+                                                        <a href="blog.html">Gallery Format</a>
+                                                        <a href="blog.html">Audio Format</a>
+                                                        <a href="blog.html">Video Format</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="about-us.html">about us</a>
+                                            </li>
+                                            <li><a href="blog.html">page</a>
+                                                <ul>
+                                                    <li><a href="shop.html">Shop</a></li>
+                                                    <li><a href="single-product.html">Single Product</a></li>
+                                                    <li><a href="login.html">Login</a></li>
+                                                    <li><a href="cart.html">Cart</a></li>
+                                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                                    <li><a href="checkout.html">checkout</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact-us.html">contact</a></li>
+                                            <li><a href="404.html">error 404</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- mobile-menu-area end -->
+            </div>
+            <!--  nav container end -->
+        </div>
+        <div class="clearfix"></div>
+    </header>
+    <!--header end-->
+    <!--main container start-->
+    <div class="main-container">
+        <div class="shop-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="breadcrumb rjc2 cool2">
+                            <a href="#">Home</a>
+                            <span class="separator">/</span><a href="#">Shop</a>
+                            <span class="separator">/</span>Digital
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="shop-Left-sidebar">
+                            <div class="row">
+                                <div id="secondary" class="col-lg-3 col-sm-12 sidebar-category">
+                                    <aside class="widget widget-product-categories rig">
+                                        <h3 class="widget-title"><span>Categories</span></h3>
+                                        <div class="widget-content">
+                                            <ul class="product-categories">
+                                                <li class="cat-item"><a href="#">Accessories</a> <span class="count">(18)</span></li>
+                                                <li class="cat-item current-cat cat-parent"><a href="#">Digital</a> <span class="count">(6)</span>
+                                                </li>
+                                                <li class="cat-item"><a href="#">Kids</a> <span class="count">(16)</span></li>
+                                                <li class="cat-item"><a href="#">Shoes</a> <span class="count">(11)</span></li>
+                                            </ul>
+                                        </div>
+                                    </aside>
+                                    <aside class="widget widget-layered-nav">
+                                        <h3 class="widget-title"><span>Size</span></h3>
+                                        <div class="widget-content">
+                                            <ul>
+                                                <li><a href="#">L</a> <span class="count">(1)</span></li>
+                                                <li><a href="#">M</a> <span class="count">(1)</span></li>
+                                                <li><a href="#">S</a> <span class="count">(1)</span></li>
+                                                <li><a href="#">XL</a> <span class="count">(1)</span></li>
+                                            </ul>
+                                        </div>
+                                    </aside>
+                                    <aside class="widget widget-price-filter">
+                                        <h3 class="widget-title"><span>Filter By Price</span></h3>
+                                        <div class="widget-content">
+                                            <form method="get" action="https://htmldemo.net/chaos/chaos/-">
+                                                <div class="price-slider-wrapper">
+                                                    <div class="price-slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="">
+                                                        <div style="left: 21.2766%; width: 59.5745%;" class="ui-slider-range ui-widget-header ui-corner-all"></div>
+                                                        <span style="left: 21.2766%;" class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span><span style="left: 80.8511%;" class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
+                                                    </div>
+                                                    <div class="price-slider-amount">
+                                                        <button type="submit" class="button">Filter</button>
+                                                        <p class="price-label">
+                                                            <label for="amount">Price:</label>
+                                                            <input type="text" id="amount" readonly style="">
+                                                        </p>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </aside>
+                                    <aside class="widget  widget-product-tag-cloud res  res2">
+                                        <h3 class="widget-title"><span>Popular Tags</span></h3>
+                                        <div class="widget-content">
+                                            <div class="tagcloud"><a href="#" title="4 topics" style="font-size: 15.5675675676pt;">blouse</a>
+                                                <a href="#" class="tag-link-29" title="9 topics" style="font-size: 21.2432432432pt;">electronic</a>
+                                                <a href="#" class="tag-link-30" title="10 topics" style="font-size: 22pt;">fashion</a>
+                                                <a href="#" class="tag-link-32" title="3 topics" style="font-size: 13.6756756757pt;">handbag</a>
+                                                <a href="#" class="tag-link-33" title="1 topic" style="font-size: 8pt;">hat</a>
+                                                <a href="#" class="tag-link-36" title="3 topics" style="font-size: 13.6756756757pt;">laptop</a>
+                                                <a href="#" class="tag-link-43" title="2 topics" style="font-size: 11.4054054054pt;">tablet</a>
+                                                <a href="#" class="tag-link-44" title="4 topics" style="font-size: 15.5675675676pt;">television</a>
+                                            </div>
+                                        </div>
+                                    </aside>
+                                    <aside class="widget compare-widget resa">
+                                        <h3 class="widget-title"><span>Compare</span></h3>
+                                        <div class="widget-content">
+                                            <ul class="products-list" data-lang="en">
+                                                <li>No products to compare</li>
+                                            </ul>
+                                            <a href="#" class="clear-all">Clear all</a>
+                                            <a href="#" class="compare button ltbtn">Compare</a>
+                                        </div>
+                                    </aside>
+                                </div>
+                                <div class="col-lg-9 col-sm-12">
+                                    <div class="shop-sidebar left-sidebar">
+                                        <div class="toolbar">
+                                            <div class="view-mode nav" id="myTab">
+                                                <button id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid-tab-pane" type="button" role="tab" aria-controls="grid-tab-pane" aria-selected="true"><i class="fa fa-th-large"></i>Grid</button>
+                                                <button id="list-tab" class="active" data-bs-toggle="tab" data-bs-target="#list-tab-pane" type="button" role="tab" aria-controls="list-tab-pane" aria-selected="true"><i class="fa fa-th-list"></i>List</button>
+                                            </div>
+                                            <p class="result-count">Showing 1–9 of 20 results</p>
+                                            <form class="ordering hidden-xs" method="get">
+                                                <div class="orderby-wrapper">
+                                                    <label>Sort By</label>
+                                                    <select name="orderby" class="orderby">
+                                                        <option value="menu_order">Default sorting</option>
+                                                        <option value="popularity" selected='selected'>Sort by popularity</option>
+                                                        <option value="rating">Sort by average rating</option>
+                                                        <option value="date">Sort by newness</option>
+                                                        <option value="price">Sort by price: low to high</option>
+                                                        <option value="price-desc">Sort by price: high to low</option>
+                                                    </select>
+                                                </div>
+                                            </form>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <!--  tab content start -->
+                                        <div id="myTabContent" class="tab-content">
+                                            <div class="tab-pane fade" id="grid-tab-pane" role="tabpanel" aria-labelledby="grid-tab" tabindex="0">
+                                                <div class="row shop-products grid-view">
+                                                    <div class="first item-col col-sm-6 col-md-4">
+                                                        <div class="product-wrapper">
+                                                            <div class="list-col4">
+                                                                <div class="product-image">
+                                                                    <a href="#" title="Aenean eu tristique">
+                                                                        <img src="images/product/pic-5.jpg" alt="11">
+                                                                    </a>
+                                                                    <div class="quickviewbtn" data-bs-toggle="modal" data-bs-target="#quickview-content">
+                                                                        <a class="detail-link quickview" href="#" title="quickview" data-bs-toggle="tooltip" data-bs-placement="top">Quick View</a>
+                                                                    </div>
+                                                                    <div class="actions">
+                                                                        <div class="action-buttons">
+                                                                            <div class="add-to-links">
+                                                                                <div class="add-to-wishlist">
+                                                                                    <a href="#" class="button add-to-wishlist" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist">Add to Wishlist</a>
+                                                                                </div>
+                                                                                <div class="clear"></div>
+                                                                                <div class="compare-button">
+                                                                                    <a href="#" class="button compare " data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">Compare</a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="add-to-cart">
+                                                                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" class="button add-to-cart" title="Add to cart">Add to cart</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="list-col8">
+                                                                <div class="gridview">
+                                                                    <div class="ratings">
+                                                                        <div class="star-rating" title="Rated 5.00 out of 5"></div>
+                                                                    </div>
+                                                                    <div class="price-box">
+                                                                        <span class="special-price"><span class="amount">£80.00</span></span>
+                                                                    </div>
+                                                                    <h2 class="product-name"><a href="#">Aenean eu tristique</a></h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- first product end -->
+                                                    <div class="item-col col-sm-6 col-md-4">
+                                                        <div class="product-wrapper">
+                                                            <div class="list-col4">
+                                                                <div class="product-image">
+                                                                    <a href="#" title="Aenean eu tristique">
+                                                                        <img src="images/product/pic-6.jpg" alt="11">
+                                                                    </a>
+                                                                    <div class="quickviewbtn" data-bs-toggle="modal" data-bs-target="#quickview-content">
+                                                                        <a class="detail-link quickview" href="#" title="quickview" data-bs-toggle="tooltip" data-bs-placement="top">Quick View</a>
+                                                                    </div>
+                                                                    <div class="actions">
+                                                                        <div class="action-buttons">
+                                                                            <div class="add-to-links">
+                                                                                <div class="add-to-wishlist">
+                                                                                    <a href="#" class="button add-to-wishlist" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist">Add to Wishlist</a>
+                                                                                </div>
+                                                                                <div class="clear"></div>
+                                                                                <div class="compare-button">
+                                                                                    <a href="#" class="button compare " data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">Compare</a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="add-to-cart">
+                                                                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" class="button add-to-cart" title="Add to cart">Add to cart</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="list-col8">
+                                                                <div class="gridview">
+                                                                    <div class="ratings">
+                                                                        <div class="star-rating" title="Rated 5.00 out of 5"></div>
+                                                                    </div>
+                                                                    <div class="price-box">
+                                                                        <span class="special-price"><span class="amount">£90.00</span></span>
+                                                                    </div>
+                                                                    <h2 class="product-name"><a href="#">Aenean eu tristique</a></h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!--   product end -->
+                                                    <div class="item-col col-sm-6 col-md-4">
+                                                        <div class="product-wrapper">
+                                                            <div class="list-col4">
+                                                                <div class="product-image">
+                                                                    <a href="#" title="Aenean eu tristique">
+                                                                        <img src="images/product/pic-8.jpg" alt="11">
+                                                                    </a>
+                                                                    <div class="quickviewbtn" data-bs-toggle="modal" data-bs-target="#quickview-content">
+                                                                        <a class="detail-link quickview" href="#" title="quickview" data-bs-toggle="tooltip" data-bs-placement="top">Quick View</a>
+                                                                    </div>
+                                                                    <div class="actions">
+                                                                        <div class="action-buttons">
+                                                                            <div class="add-to-links">
+                                                                                <div class="add-to-wishlist">
+                                                                                    <a href="#" class="button add-to-wishlist" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist">Add to Wishlist</a>
+                                                                                </div>
+                                                                                <div class="clear"></div>
+                                                                                <div class="compare-button">
+                                                                                    <a href="#" class="button compare " data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">Compare</a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="add-to-cart">
+                                                                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" class="button add-to-cart" title="Add to cart">Add to cart</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="list-col8">
+                                                                <div class="gridview">
+                                                                    <div class="ratings">
+                                                                        <div class="star-rating" title="Rated 5.00 out of 5"></div>
+                                                                    </div>
+                                                                    <div class="price-box">
+                                                                        <span class="special-price"><span class="amount">£70.00</span></span>
+                                                                    </div>
+                                                                    <h2 class="product-name"><a href="#">Aenean eu tristique</a></h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!--  product end -->
+                                                    <div class="first item-col col-sm-6 col-md-4">
+                                                        <div class="product-wrapper">
+                                                            <div class="list-col4">
+                                                                <div class="product-image">
+                                                                    <a href="#" title="Aenean eu tristique">
+                                                                        <img src="images/product/pic-7.jpg" alt="11">
+                                                                    </a>
+                                                                    <div class="quickviewbtn" data-bs-toggle="modal" data-bs-target="#quickview-content">
+                                                                        <a class="detail-link quickview" href="#" title="quickview" data-bs-toggle="tooltip" data-bs-placement="top">Quick View</a>
+                                                                    </div>
+                                                                    <div class="actions">
+                                                                        <div class="action-buttons">
+                                                                            <div class="add-to-links">
+                                                                                <div class="add-to-wishlist">
+                                                                                    <a href="#" class="button add-to-wishlist" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist">Add to Wishlist</a>
+                                                                                </div>
+                                                                                <div class="clear"></div>
+                                                                                <div class="compare-button">
+                                                                                    <a href="#" class="button compare " data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">Compare</a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="add-to-cart">
+                                                                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" class="button add-to-cart" title="Add to cart">Add to cart</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="list-col8">
+                                                                <div class="gridview">
+                                                                    <div class="ratings">
+                                                                        <div class="star-rating" title="Rated 5.00 out of 5"></div>
+                                                                    </div>
+                                                                    <div class="price-box">
+                                                                        <span class="special-price"><span class="amount">£90.00</span></span>
+                                                                    </div>
+                                                                    <h2 class="product-name"><a href="#">Aenean eu tristique</a></h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!--  product end -->
+                                                    <div class="item-col col-sm-6 col-md-4">
+                                                        <div class="product-wrapper">
+                                                            <span class="onsale"><span class="sale-text">Sale</span></span>
+                                                            <div class="list-col4">
+                                                                <div class="product-image">
+                                                                    <a href="#" title="Aenean eu tristique">
+                                                                        <img src="images/product/pic-10.jpg" alt="11">
+                                                                    </a>
+                                                                    <div class="quickviewbtn" data-bs-toggle="modal" data-bs-target="#quickview-content">
+                                                                        <a class="detail-link quickview" href="#" title="quickview" data-bs-toggle="tooltip" data-bs-placement="top">Quick View</a>
+                                                                    </div>
+                                                                    <div class="actions">
+                                                                        <div class="action-buttons">
+                                                                            <div class="add-to-links">
+                                                                                <div class="add-to-wishlist">
+                                                                                    <a href="#" class="button add-to-wishlist" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist">Add to Wishlist</a>
+                                                                                </div>
+                                                                                <div class="clear"></div>
+                                                                                <div class="compare-button">
+                                                                                    <a href="#" class="button compare " data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">Compare</a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="add-to-cart">
+                                                                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" class="button add-to-cart" title="Add to cart">Add to cart</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="list-col8">
+                                                                <div class="gridview">
+                                                                    <div class="ratings">
+                                                                        <div class="star-rating" title="Rated 5.00 out of 5"></div>
+                                                                    </div>
+                                                                    <div class="price-box">
+                                                                        <span class="special-price"><span class="amount">£120.00</span></span>
+                                                                    </div>
+                                                                    <h2 class="product-name"><a href="#">Aenean eu tristique</a></h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!--   product end -->
+                                                    <div class="item-col col-sm-6 col-md-4">
+                                                        <div class="product-wrapper">
+                                                            <span class="onsale"><span class="sale-text">Sale</span></span>
+                                                            <div class="list-col4">
+                                                                <div class="product-image">
+                                                                    <a href="#" title="Aenean eu tristique">
+                                                                        <img src="images/product/pic-3.jpg" alt="11">
+                                                                    </a>
+                                                                    <div class="quickviewbtn" data-bs-toggle="modal" data-bs-target="#quickview-content">
+                                                                        <a class="detail-link quickview" href="#" title="quickview" data-bs-toggle="tooltip" data-bs-placement="top">Quick View</a>
+                                                                    </div>
+                                                                    <div class="actions">
+                                                                        <div class="action-buttons">
+                                                                            <div class="add-to-links">
+                                                                                <div class="add-to-wishlist">
+                                                                                    <a href="#" class="button add-to-wishlist" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist">Add to Wishlist</a>
+                                                                                </div>
+                                                                                <div class="clear"></div>
+                                                                                <div class="compare-button">
+                                                                                    <a href="#" class="button compare " data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">Compare</a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="add-to-cart">
+                                                                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" class="button add-to-cart" title="Add to cart">Add to cart</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="list-col8">
+                                                                <div class="gridview">
+                                                                    <div class="ratings">
+                                                                        <div class="star-rating" title="Rated 5.00 out of 5"></div>
+                                                                    </div>
+                                                                    <div class="price-box">
+                                                                        <span class="special-price"><span class="amount">£60.00</span></span>
+                                                                    </div>
+                                                                    <h2 class="product-name"><a href="#">Aenean eu tristique</a></h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!--  product end -->
+                                                    <div class="first item-col cool col-sm-6 col-md-4">
+                                                        <div class="product-wrapper">
+                                                            <span class="onsale"><span class="sale-text">Sale</span></span>
+                                                            <div class="list-col4">
+                                                                <div class="product-image">
+                                                                    <a href="#" title="Aenean eu tristique">
+                                                                        <img src="images/product/pic-2.jpg" alt="11">
+                                                                    </a>
+                                                                    <div class="quickviewbtn" data-bs-toggle="modal" data-bs-target="#quickview-content">
+                                                                        <a class="detail-link quickview" href="#" title="quickview" data-bs-toggle="tooltip" data-bs-placement="top">Quick View</a>
+                                                                    </div>
+                                                                    <div class="actions">
+                                                                        <div class="action-buttons">
+                                                                            <div class="add-to-links">
+                                                                                <div class="add-to-wishlist">
+                                                                                    <a href="#" class="button add-to-wishlist" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist">Add to Wishlist</a>
+                                                                                </div>
+                                                                                <div class="clear"></div>
+                                                                                <div class="compare-button">
+                                                                                    <a href="#" class="button compare " data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">Compare</a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="add-to-cart">
+                                                                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" class="button add-to-cart" title="Add to cart">Add to cart</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="list-col8">
+                                                                <div class="gridview">
+                                                                    <div class="ratings">
+                                                                        <div class="star-rating" title="Rated 5.00 out of 5"></div>
+                                                                    </div>
+                                                                    <div class="price-box">
+                                                                        <span class="special-price"><span class="amount">£70.00</span></span>
+                                                                    </div>
+                                                                    <h2 class="product-name"><a href="#">Aenean eu tristique</a></h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!--  product end -->
+                                                    <div class=" item-col cool col-sm-6 col-md-4">
+                                                        <div class="product-wrapper">
+                                                            <span class="onsale"><span class="sale-text">Sale</span></span>
+                                                            <div class="list-col4">
+                                                                <div class="product-image">
+                                                                    <a href="#" title="Aenean eu tristique">
+                                                                        <img src="images/product/pic-7.jpg" alt="11">
+                                                                    </a>
+                                                                    <div class="quickviewbtn" data-bs-toggle="modal" data-bs-target="#quickview-content">
+                                                                        <a class="detail-link quickview" href="#" title="quickview" data-bs-toggle="tooltip" data-bs-placement="top">Quick View</a>
+                                                                    </div>
+                                                                    <div class="actions">
+                                                                        <div class="action-buttons">
+                                                                            <div class="add-to-links">
+                                                                                <div class="add-to-wishlist">
+                                                                                    <a href="#" class="button add-to-wishlist" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist">Add to Wishlist</a>
+                                                                                </div>
+                                                                                <div class="clear"></div>
+                                                                                <div class="compare-button">
+                                                                                    <a href="#" class="button compare " data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">Compare</a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="add-to-cart">
+                                                                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" class="button add-to-cart" title="Add to cart">Add to cart</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="list-col8">
+                                                                <div class="gridview">
+                                                                    <div class="ratings">
+                                                                        <div class="star-rating" title="Rated 5.00 out of 5"></div>
+                                                                    </div>
+                                                                    <div class="price-box">
+                                                                        <span class="special-price"><span class="amount">£70.00</span></span>
+                                                                    </div>
+                                                                    <h2 class="product-name"><a href="#">Aenean eu tristique</a></h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!--  product end -->
+                                                    <div class="item-col cool col-sm-6 col-md-4">
+                                                        <div class="product-wrapper">
+                                                            <span class="onsale"><span class="sale-text">Sale</span></span>
+                                                            <div class="list-col4">
+                                                                <div class="product-image">
+                                                                    <a href="#" title="Aenean eu tristique">
+                                                                        <img src="images/product/pic-4.jpg" alt="11">
+                                                                    </a>
+                                                                    <div class="quickviewbtn" data-bs-toggle="modal" data-bs-target="#quickview-content">
+                                                                        <a class="detail-link quickview" href="#" title="quickview" data-bs-toggle="tooltip" data-bs-placement="top">Quick View</a>
+                                                                    </div>
+                                                                    <div class="actions">
+                                                                        <div class="action-buttons">
+                                                                            <div class="add-to-links">
+                                                                                <div class="add-to-wishlist">
+                                                                                    <a href="#" class="button add-to-wishlist" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist">Add to Wishlist</a>
+                                                                                </div>
+                                                                                <div class="clear"></div>
+                                                                                <div class="compare-button">
+                                                                                    <a href="#" class="button compare " data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">Compare</a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="add-to-cart">
+                                                                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" class="button add-to-cart" title="Add to cart">Add to cart</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="list-col8">
+                                                                <div class="gridview">
+                                                                    <div class="ratings">
+                                                                        <div class="star-rating" title="Rated 5.00 out of 5"></div>
+                                                                    </div>
+                                                                    <div class="price-box">
+                                                                        <span class="special-price"><span class="amount">£70.00</span></span>
+                                                                    </div>
+                                                                    <h2 class="product-name"><a href="#">Aenean eu tristique</a></h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!--  product end -->
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade show active" id="list-tab-pane" role="tabpanel" aria-labelledby="grid-tab" tabindex="0">
+                                                <!-- tabpanel #list -->
+                                                <div class="row shop-products list-view">
+                                                    <div class="first item-col col-md-12">
+                                                        <div class="product-wrapper">
+                                                            <span class="onsale"><span class="sale-text">Sale</span></span>
+                                                            <div class="row">
+                                                                <div class="list-col4 col-md-4">
+                                                                    <div class="product-image">
+                                                                        <a href="#" title="Aenean eu tristique">
+                                                                            <img src="images/product/pic-10.jpg" alt="11">
+                                                                        </a>
+                                                                        <div class="quickviewbtn" data-bs-toggle="modal" data-bs-target="#quickview-content">
+                                                                            <a class="detail-link quickview" href="#" title="quickview" data-bs-toggle="tooltip" data-bs-placement="top">Quick View</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="list-col8 col-md-8">
+                                                                    <div class="listview tnm">
+                                                                        <h2 class="product-name"><a href="#">Aenean eu tristique</a></h2>
+                                                                        <div class="ratings">
+                                                                            <div class="star-rating" title="Rated 5.00 out of 5"></div>
+                                                                        </div>
+                                                                        <div class="price-box"><span class="special-price"><span class="amount">£80.00</span></span><span class="old-price"><span class="amount">£85.00</span></span>
+                                                                        </div>
+                                                                        <div class="product-desc">
+                                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.</p>
+                                                                        </div>
+                                                                        <div class="actions">
+                                                                            <div class="action-buttons">
+                                                                                <div class="add-to-cart">
+                                                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" class="button add-to-cart" title="Add to cart">Add to cart</a>
+                                                                                </div>
+                                                                                <div class="add-to-links">
+                                                                                    <div class="add-to-wishlist">
+                                                                                        <a href="#" class="button add-to-wishlist" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist">Add to Wishlist</a>
+                                                                                    </div>
+                                                                                    <div class="clear"></div>
+                                                                                    <div class="compare-button">
+                                                                                        <a href="#" class="button compare " data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">Compare</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="first item-col col-md-12">
+                                                        <div class="product-wrapper">
+                                                            <span class="onsale"><span class="sale-text">Sale</span></span>
+                                                            <div class="row">
+                                                                <div class="list-col4 col-md-4">
+                                                                    <div class="product-image">
+                                                                        <a href="#" title="Aenean eu tristique">
+                                                                            <img src="images/product/pic-4.jpg" alt="11">
+                                                                        </a>
+                                                                        <div class="quickviewbtn" data-bs-toggle="modal" data-bs-target="#quickview-content">
+                                                                            <a class="detail-link quickview" href="#" title="quickview" data-bs-toggle="tooltip" data-bs-placement="top">Quick View</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="list-col8 col-md-8">
+                                                                    <div class="listview tnm">
+                                                                        <h2 class="product-name"><a href="#">Aenean eu tristique</a></h2>
+                                                                        <div class="ratings">
+                                                                            <div class="star-rating" title="Rated 5.00 out of 5"></div>
+                                                                        </div>
+                                                                        <div class="price-box"><span class="special-price"><span class="amount">£70.00</span></span><span class="old-price"><span class="amount">£75.00</span></span>
+                                                                        </div>
+                                                                        <div class="product-desc">
+                                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.</p>
+                                                                        </div>
+                                                                        <div class="actions">
+                                                                            <div class="action-buttons">
+                                                                                <div class="add-to-cart">
+                                                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" class="button add-to-cart" title="Add to cart">Add to cart</a>
+                                                                                </div>
+                                                                                <div class="add-to-links">
+                                                                                    <div class="add-to-wishlist">
+                                                                                        <a href="#" class="button add-to-wishlist" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist">Add to Wishlist</a>
+                                                                                    </div>
+                                                                                    <div class="clear"></div>
+                                                                                    <div class="compare-button">
+                                                                                        <a href="#" class="button compare " data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">Compare</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="first item-col col-md-12">
+                                                        <div class="product-wrapper">
+                                                            <span class="onsale"><span class="sale-text">Sale</span></span>
+                                                            <div class="row">
+                                                                <div class="list-col4 col-md-4">
+                                                                    <div class="product-image">
+                                                                        <a href="#" title="Aenean eu tristique">
+                                                                            <img src="images/product/pic-3.jpg" alt="11">
+                                                                        </a>
+                                                                        <div class="quickviewbtn" data-bs-toggle="modal" data-bs-target="#quickview-content">
+                                                                            <a class="detail-link quickview" href="#" title="quickview" data-bs-toggle="tooltip" data-bs-placement="top">Quick View</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="list-col8 col-md-8">
+                                                                    <div class="listview tnm">
+                                                                        <h2 class="product-name"><a href="#">Aenean eu tristique</a></h2>
+                                                                        <div class="ratings">
+                                                                            <div class="star-rating" title="Rated 5.00 out of 5"></div>
+                                                                        </div>
+                                                                        <div class="price-box"><span class="special-price"><span class="amount">£90.00</span></span><span class="old-price"><span class="amount">£95.00</span></span>
+                                                                        </div>
+                                                                        <div class="product-desc">
+                                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.</p>
+                                                                        </div>
+                                                                        <div class="actions">
+                                                                            <div class="action-buttons">
+                                                                                <div class="add-to-cart">
+                                                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" class="button add-to-cart" title="Add to cart">Add to cart</a>
+                                                                                </div>
+                                                                                <div class="add-to-links">
+                                                                                    <div class="add-to-wishlist">
+                                                                                        <a href="#" class="button add-to-wishlist" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist">Add to Wishlist</a>
+                                                                                    </div>
+                                                                                    <div class="clear"></div>
+                                                                                    <div class="compare-button">
+                                                                                        <a href="#" class="button compare" data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">Compare</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="first item-col col-md-12">
+                                                        <div class="product-wrapper">
+                                                            <div class="row">
+                                                                <div class="list-col4 col-md-4">
+                                                                    <div class="product-image">
+                                                                        <a href="#" title="Aenean eu tristique">
+                                                                            <img src="images/product/pic-4.jpg" alt="11">
+                                                                        </a>
+                                                                        <div class="quickviewbtn" data-bs-toggle="modal" data-bs-target="#quickview-content">
+                                                                            <a class="detail-link quickview" href="#" title="quickview" data-bs-toggle="tooltip" data-bs-placement="top">Quick View</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="list-col8 col-md-8">
+                                                                    <div class="listview tnm">
+                                                                        <h2 class="product-name"><a href="#">Aenean eu tristique</a></h2>
+                                                                        <div class="ratings">
+                                                                            <div class="star-rating" title="Rated 5.00 out of 5"></div>
+                                                                        </div>
+                                                                        <div class="price-box">
+                                                                            <span class="special-price"><span class="amount">£120.00</span></span>
+                                                                        </div>
+                                                                        <div class="product-desc">
+                                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.</p>
+                                                                        </div>
+                                                                        <div class="actions">
+                                                                            <div class="action-buttons">
+                                                                                <div class="add-to-cart">
+                                                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" class="button add-to-cart" title="Add to cart">Add to cart</a>
+                                                                                </div>
+                                                                                <div class="add-to-links">
+                                                                                    <div class="add-to-wishlist">
+                                                                                        <a href="#" class="button add-to-wishlist" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist">Add to Wishlist</a>
+                                                                                    </div>
+                                                                                    <div class="clear"></div>
+                                                                                    <div class="compare-button">
+                                                                                        <a href="#" class="button compare " data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">Compare</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end of tab content -->
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="pagination res">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="pagination-content">
+                                                    <div class="pagination-button">
+                                                        <ul class="page-numbers">
+                                                            <li><a href="#" class="prev page-numbers"><i class="fa fa-long-arrow-left"></i></a></li>
+                                                            <li class="current"><span class="page-numbers current">1</span></li>
+                                                            <li><a href="#">2</a></li>
+                                                            <li><a href="#">3</a></li>
+                                                            <li><a href="#" class="next page-numbers"><i class="fa fa-long-arrow-right"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  modal start  -->
+            <div class="quickview-wrapper open">
+                <div class="modal quick-modal  fade" id="quickview-content" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button aria-hidden="true" data-bs-dismiss="modal" class="close" type="button"> <i class="fa fa-times"></i></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                                        <div class="product-images">
+                                            <div class="main-image images">
+                                                <img src="images/product/pic-5.jpg" alt="product">
+                                            </div>
+                                            <div class="modal-product-thumb">
+                                                <div class="quick-thumbnails carousel slick-slider">
+                                                    <div class="slick-slide slick-active">
+                                                        <a href="images/product/pic-4.jpg"><img src="images/product/pic-4.jpg" alt="product"></a>
+                                                    </div>
+                                                    <div class="slick-slide slick-active">
+                                                        <a href="images/product/pic-5.jpg"><img src="images/product/pic-5.jpg" alt="product"></a>
+                                                    </div>
+                                                    <div class="slick-slide slick-active">
+                                                        <a href="images/product/pic-6.jpg"><img src="images/product/pic-6.jpg" alt="product"></a>
+                                                    </div>
+                                                    <div class="slick-slide slick-active">
+                                                        <a href="images/product/pic-8.jpg"><img src="images/product/pic-8.jpg" alt="product"></a>
+                                                    </div>
+                                                    <div class="slick-slide">
+                                                        <a href="images/product/pic-7.jpg"><img src="images/product/pic-7.jpg" alt="product"></a>
+                                                    </div>
+                                                    <div class="slick-slide">
+                                                        <a href="images/product/pic-3.jpg"><img src="images/product/pic-3.jpg" alt="product"></a>
+                                                    </div>
+                                                    <div class="slick-slide">
+                                                        <a href="images/product/pic-10.jpg"><img src="images/product/pic-10.jpg" alt="product"></a>
+                                                    </div>
+                                                    <div class="slick-slide">
+                                                        <a href="images/product/pic-2.jpg"><img src="images/product/pic-2.jpg" alt="product"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 modal-details no-padding">
+                                        <div class="modal-details-inner clearfix">
+                                            <h2 class="title">Aenean sagittis</h2>
+                                            <div class="price-box">
+                                                <p class="price"><span class="special-price"><span class="amount">£75.00</span></span></p>
+                                            </div>
+                                            <a class="see-all" href="#">See all features</a>
+                                            <div class="quick-add-to-cart">
+                                                <form class="cart" method="post" enctype="multipart/form-data">
+                                                    <div class="quantity">
+                                                        <input step="1" min="1" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" type="number">
+                                                    </div>
+                                                    <button type="submit" class="single-add-to-cart button">Add to cart</button>
+                                                </form>
+                                            </div>
+                                            <div class="quick-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.</div>
+                                            <div class="single-product-sharing">
+                                                <h3 class="social-title">Share this product</h3>
+                                                <div class="thumb-social-sharing">
+                                                    <ul class="social-icons">
+                                                        <li><a target="_blank" data-bs-toggle="tooltip" title="Facebook" href="#" class="facebook social-icon"><i class="fa fa-facebook"></i></a></li>
+                                                        <li><a target="_blank" data-bs-toggle="tooltip" title="Twitter" href="#" class="twitter social-icon"><i class="fa fa-twitter"></i></a></li>
+                                                        <li><a target="_blank" data-bs-toggle="tooltip" title="pinterest" href="#" class="pinterest social-icon"><i class="fa fa-pinterest"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a target="_blank" data-bs-toggle="tooltip" title="Google-plus" href="#" class="gplus social-icon">
+                                                                <i class="fa fa-google-plus"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li><a target="_blank" data-bs-toggle="tooltip" title="linkedin" href="#" class="linkedin social-icon"><i class="fa fa-linkedin"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--   modal end -->
+        </div>
+        <!-- shop content end -->
+    </div>
+    <!--main container end-->
+    <!-- Footer start -->
+    <footer>
+        <!-- Footer top area -->
+        <div class="footer-area clearfix">
+            <div class="footer-top-area">
+                <div class="container">
+                    <hr class="bottom-space9">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="aboutus-widget">
+                                <h3 class="widget-title">About us</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="twitter-widget rjc0">
+                                <h3 class="widget-title">Lastest post from Twitter</h3>
+                                <div class="twitter-post">
+                                    <p>Purchase our new WordPress WooCommerce theme - TimePlus  <a href="#">goo.gl/g37uoC</a> <a href="#">pic.twitter.com/vS4nBq69jM</a></p>
+                                    <a href="#">Last update : 01-09-16</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="widget-contact-us rjc01">
+                                <h3 class="widget-title">Contact Us</h3>
+                                <div class="contact-information">
+                                    <ul>
+                                        <li><i class="fa fa-phone"> </i>8123.456.7890</li>
+                                        <li><i class="fa fa-mobile-phone"> </i>8493.867.1986</li>
+                                        <li><i class="fa fa-envelope-o"> </i>support@company.com</li>
+                                        <li><i class="fa fa-map-marker"> </i>time city</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Middle area -->
+            <div class="footer-middle-area">
+                <div class="container">
+                    <hr class="footer-line">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-4">
+                            <h3 class="widget-title">Information</h3>
+                            <ul class="widget-menu">
+                                <li><a href="#">Our Blog</a></li>
+                                <li><a href="#">About Our Shop</a></li>
+                                <li><a href="#">Secure Shopping</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Delivery infomation</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <h3 class="widget-title">My account</h3>
+                            <ul class="widget-menu">
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Shopping cart</a></li>
+                                <li><a href="#">Advanced Search</a></li>
+                                <li><a href="#">Orders And Returns</a></li>
+                                <li><a href="#">contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <h3 class="widget-title">our service</h3>
+                            <ul class="widget-menu">
+                                <li><a href="#">Shipping & Returns</a></li>
+                                <li><a href="#">Secure Shopping</a></li>
+                                <li><a href="#">International Shipping</a></li>
+                                <li><a href="#">Affiliates</a></li>
+                                <li><a href="#">Secure Shopping</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <h3 class="widget-title">Customer care</h3>
+                            <ul class="widget-menu">
+                                <li><a href="#">Sitemap</a></li>
+                                <li><a href="#">Term & Conditions</a></li>
+                                <li><a href="#">Gift Vouchers</a></li>
+                                <li><a href="#">BestSellers</a></li>
+                                <li><a href="#">Sitemap</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="widget widget-social">
+                                <h3 class="widget-title">Social networks</h3>
+                                <ul class="social-icons">
+                                    <li><a target="_blank" data-bs-toggle="tooltip" title="Facebook" href="#" class="facebook social-icon"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a target="_blank" data-bs-toggle="tooltip" title="Twitter" href="#" class="twitter social-icon"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a target="_blank" data-bs-toggle="tooltip" title="Tumblr" href="#" class="tumblr social-icon"><i class="fa fa-tumblr"></i></a></li>
+                                    <li>
+                                        <a target="_blank" data-bs-toggle="tooltip" title="Google-plus" href="#" class="google-plus social-icon">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li><a target="_blank" data-bs-toggle="tooltip" title="Dribbble" href="#" class="dribbble social-icon"><i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer bottom area  -->
+            <div class="footer-bottom-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                            <div class="copyright-info">
+                                Copyright &copy; 2022
+                                <a href="http://bootexperts.com/">BootExperts.</a> All Rights Reserved
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                            <div class="bottom-right">
+                                <a href="#"><img src="images/pay/pay-visa.png" alt="pay-visa" /></a>
+                                <a href="#"><img src="images/pay/pay-maestro.png" alt="pay-maestro" /></a>
+                                <a href="#"><img src="images/pay/pay-discover.png" alt="pay-discover" /></a>
+                                <a href="#"><img src="images/pay/pay-cirrus.png" alt="pay-cirrus" /></a>
+                                <a href="#"><img src="images/pay/pay-bank.png" alt="pay-bank" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer bottom end -->
+    </footer>
+    <!-- Footer end -->
+    
+    
+    
+    <!-- jquery
+    ============================================ -->
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <!-- bootstrap JS
+    ============================================ -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- nivo slider js
+    ============================================ -->
+    <script src="js/jquery.nivo.slider.pack.js"></script>
+    <!-- wow JS
+    ============================================ -->
+    <script src="js/wow.min.js"></script>
+    <!-- meanmenu JS
+    ============================================ -->
+    <script src="js/jquery.meanmenu.js"></script>
+    <!-- slick JS
+    ============================================ -->
+    <script src="js/slick.min.js"></script>
+    <!-- price-slider JS
+    ============================================ -->
+    <script src="js/jquery-price-slider.js"></script>
+    <!-- scrollUp JS
+    ============================================ -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!--Countdown js-->
+    <script src="js/jquery.countdown.min.js"></script>
+    <!-- chosen.jquery JS
+    ============================================ -->
+    <script src="js/chosen.jquery.min.js"></script>
+    <script src="js/chosen.proto.min.js"></script>
+    <!-- su-carusel JS
+    ============================================ -->
+    <script src="lib/gellaries/su-carusel.js"></script>
+    <script src="lib/gellaries/swiper.js"></script>
+    <!-- plugins JS
+    ============================================ -->
+    <script src="js/plugins.js"></script>
+    <!-- main JS
+    ============================================ -->
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+
+<!-- Mirrored from htmldemo.net/chaos/chaos/list-view.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Dec 2023 20:00:40 GMT -->
+</html>
