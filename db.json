@@ -1,0 +1,111 @@
+{
+  "Categories": [
+    {
+      "id": 1,
+      "title": "Electronics",
+      "desc": "Electronics products",
+      "image_slug": "electronics-image"
+    },
+    {
+      "id": 2,
+      "title": "Clothing",
+      "desc": "Clothing products",
+      "image_slug": "clothing-image"
+    }
+  ],
+  "Product": [
+    {
+      "id": 1,
+      "title": "Laptop",
+      "categoryid": 1,
+      "image": "laptop-image.jpg",
+      "gallery": ["image1.jpg", "image2.jpg"],
+      "price": 1200,
+      "filter": ["brand1", "color1"],
+      "date": "2023-01-01"
+    },
+    {
+      "id": 2,
+      "title": "T-shirt",
+      "categoryid": 2,
+      "image": "tshirt-image.jpg",
+      "gallery": ["image3.jpg", "image4.jpg"],
+      "price": 30,
+      "filter": ["size1", "color2"],
+      "date": "2023-01-02"
+    }
+  ],
+  "Users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "hashedpassword123"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "password": "hashedpassword456"
+    }
+  ],
+  "Blogs": [
+    {
+      "id": 1,
+      "title": "Tech Blog",
+      "short_desc": "Latest tech trends",
+      "long_desc": "In-depth articles on the latest technology",
+      "image": "tech-blog-image.jpg",
+      "date": "2023-01-03"
+    },
+    {
+      "id": 2,
+      "title": "Fashion Blog",
+      "short_desc": "Trending fashion styles",
+      "long_desc": "Explore the latest fashion trends and styles",
+      "image": "fashion-blog-image.jpg",
+      "date": "2023-01-04"
+    }
+  ],
+  "Wishlist": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "user_id": 2
+    }
+  ],
+  "Orders": [
+    {
+      "orderid": 1,
+      "user_id": 1,
+      "products": [
+        {
+          "product_id": 1,
+          "date": "2023-01-05",
+          "status": "Shipped"
+        },
+        {
+          "product_id": 2,
+          "date": "2023-01-06",
+          "status": "Processing"
+        }
+      ]
+    },
+    {
+      "orderid": 2,
+      "user_id": 2,
+      "products": [
+        {
+          "product_id": 1,
+          "date": "2023-01-07",
+          "status": "Delivered"
+        }
+      ]
+    }
+  ]
+}
